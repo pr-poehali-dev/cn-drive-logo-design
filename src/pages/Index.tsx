@@ -3,26 +3,34 @@ const Index = () => {
     <div className="min-h-screen bg-white flex items-center justify-center p-8">
       <div className="relative inline-block">
         <svg 
-          className="w-[700px] h-[250px]" 
-          viewBox="0 0 700 250"
+          className="w-[800px] h-[280px]" 
+          viewBox="0 0 800 280"
         >
           <path
-            d="M 50 125 Q 50 40, 350 40 Q 650 40, 650 125 Q 650 210, 350 210 Q 50 210, 50 125"
+            d="M 100 80 Q 250 15, 400 15 Q 550 15, 700 80"
             fill="none"
-            stroke="#DC2626"
-            strokeWidth="7"
+            stroke="#E11D48"
+            strokeWidth="12"
+            strokeLinecap="round"
+          />
+          
+          <path
+            d="M 100 200 Q 250 265, 400 265 Q 550 265, 700 200"
+            fill="none"
+            stroke="#1F2937"
+            strokeWidth="12"
             strokeLinecap="round"
           />
           
           <text
-            x="350"
-            y="140"
+            x="400"
+            y="155"
             textAnchor="middle"
             dominantBaseline="middle"
             className="font-orbitron"
-            style={{ fontSize: '85px', fontWeight: 900, letterSpacing: '3px' }}
+            style={{ fontSize: '105px', fontWeight: 900, letterSpacing: '2px' }}
           >
-            <tspan fill="#DC2626">Cn</tspan>
+            <tspan fill="#E11D48">Cn</tspan>
             <tspan fill="#1F2937">Drive</tspan>
           </text>
         </svg>
