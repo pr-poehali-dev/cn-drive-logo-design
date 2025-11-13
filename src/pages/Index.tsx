@@ -30,8 +30,8 @@ const Index = () => {
             className="font-orbitron"
             style={{ fontSize: '105px', fontWeight: 900, letterSpacing: '2px' }}
           >
-            <tspan fill="#E11D48">Cn</tspan>
-            <tspan fill="#1F2937">Drive</tspan>
+            <tspan fill="#000000">Cn</tspan>
+            <tspan fill="#DC2626">Drive</tspan>
           </text>
         </svg>
       </div>
