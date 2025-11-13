@@ -16,10 +16,6 @@ const Index = () => {
         </div>
         
         <div className="mt-6 h-0.5 w-48 mx-auto bg-gradient-to-r from-transparent via-primary to-transparent"></div>
-        
-        <p className="mt-6 font-orbitron text-lg text-muted-foreground tracking-widest uppercase">
-          Drive Into The Future
-        </p>
       </div>
     </div>
   );
